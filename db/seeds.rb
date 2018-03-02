@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Vesitable.create!(name: "にんじん",
+                  discription: "にんじんの説明",)
+Vesitable.create!(name: "じゃがいも",
+                  discription: "じゃがいもの説明")
