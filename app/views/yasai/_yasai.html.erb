@@ -1,0 +1,8 @@
+<p><%= vesitable.name %></p>
+<% if vesitable.name == "じゃがいも" %>
+  <p><%= image_tag '/jagaimo_poteto.png' %></p>
+<% elsif vesitable.name == "にんじん" %>
+  <p><%= image_tag '/ninjin.png' %></p>
+<% end %>
+<p><%= vesitable.discription %></p>
+<%= link_to "もう一回", root_path %>
